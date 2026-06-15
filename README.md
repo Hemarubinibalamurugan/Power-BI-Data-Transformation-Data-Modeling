@@ -1,8 +1,8 @@
-## 📊 Project Title: Power BI Data Cleaning and Preparation Using Power Query
+# 📊 Project Title: Power BI Data Cleaning and Preparation Using Power Query
 
 This project focuses on cleaning, transforming, and preparing raw business data using Power Query in Power BI for better analysis and reporting.
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
 * "Project Overview" (#-project-overview)
 * "Data Sources & Architecture" (#-data-sources--architecture)
@@ -14,28 +14,28 @@ This project focuses on cleaning, transforming, and preparing raw business data 
 
 ---
 
-🎯 Project Overview
+## 🎯 Project Overview
 
 Business Problem
 
 Raw datasets often contain duplicate records, missing values, and inconsistent formatting, making analysis difficult in Power BI.
 
-Objective
+##  Objective
 
 The objective of this project is to clean and prepare datasets using Power Query in Power BI to make the data ready for reporting and business analysis.
 
-Target Audience
+### Target Audience
 
 - Data Analysts
 - Business Analysts
 - Students learning Power BI
 - Reporting Teams
 
----
 
-🗃️ Data Sources & Architecture
 
-Source Systems
+## 🗃️ Data Sources & Architecture
+
+### Source Systems
 
 The project uses local CSV files:
 
@@ -43,25 +43,25 @@ The project uses local CSV files:
 - Order Details.csv
 - Sales Target.csv
 
-Data Volume
+### Data Volume
 
 - List of Orders: First 500 rows used
 - Order Details: Transaction-level sales data
 - Sales Target: Monthly target data
 
-Storage Mode
+### Storage Mode
 
 Import Mode was used in Power BI.
 
----
 
-⚙️ Data Transformation (ETL)
 
-Tool Used
+## ⚙️ Data Transformation (ETL)
+
+## Tool Used
 
 Power Query Editor
 
-Key Cleanups
+# Key Cleanups
 
 The following transformations were applied:
 
@@ -77,36 +77,32 @@ The following transformations were applied:
 - Applied sorting and filtering
 - Performed grouping and aggregation
 
-Custom Functions
 
-No custom M code scripts were used.
 
----
+## 🧠 Data Model & DAX
 
-🧠 Data Model & DAX
-
-Model Type
+### Model Type
 
 Basic relational model using table relationships.
 
-Fact Tables
+### Fact Tables
 
 - Order Details
 - Orders Data
 
-Dimension Tables
+### Dimension Tables
 
 - List of Orders
 - Sales Target
 
-Relationships Created
+### Relationships Created
 
 - List of Orders ↔ Order Details using Order ID
 - Order Details ↔ Sales Target using Category
 
----
 
-🖥️ Dashboard Features
+
+## 🖥️ Dashboard Features
 
 Data Preparation Features
 
@@ -119,29 +115,29 @@ Data Preparation Features
 - Grouping and aggregation
 - Relationship management
 
-Design Theme
+## Design Theme
 
 Simple and clean Power BI data preparation workflow.
 
----
 
-💡 Key Insights
 
-Trend A
+## 💡 Key Insights
+
+## Trend A
 
 Customer order and sales data were successfully combined for better analysis.
 
-Trend B
+## Trend B
 
 Profit performance was categorized into Loss, Break-Even, and Profit using conditional columns.
 
-Recommendation
+## Recommendation
 
 Proper data cleaning should always be completed before dashboard creation to improve accuracy and reporting quality.
 
----
 
-🚀 How To Use
+
+# 🚀 How To Use
 
 1. Install Power BI Desktop.
 2. Open the Power BI project file.
@@ -150,6 +146,4 @@ Proper data cleaning should always be completed before dashboard creation to imp
 5. Apply the cleaning and transformation steps.
 6. Create relationships using Manage Relationships.
 
----
 
-⭐ If you found this project useful, feel free to explore and learn from it!
