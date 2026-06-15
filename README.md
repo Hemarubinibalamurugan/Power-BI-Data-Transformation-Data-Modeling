@@ -61,7 +61,8 @@ Import Mode was used in Power BI.
 
 Power Query Editor
 
-# Key Cleanups
+##
+Key Cleanups
 
 The following transformations were applied:
 
